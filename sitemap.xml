@@ -23,6 +23,13 @@
   </url>
   
   <url>
+    <loc>http://yoursite-url/about/index.html</loc>
+    
+    <lastmod>2022-04-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://yoursite-url/archive/index.html</loc>
     
     <lastmod>2017-03-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/about/index.html</loc>
-    
-    <lastmod>2016-04-20</lastmod>
     
   </url>
   
