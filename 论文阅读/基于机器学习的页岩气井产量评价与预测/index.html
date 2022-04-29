@@ -141,10 +141,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="http://sallbryant.github.io/archives/2022/">
+  <link rel="canonical" href="http://sallbryant.github.io/论文阅读/基于机器学习的页岩气井产量评价与预测/">
   <title>
     
-      either thin | or die
+      每日论文-2 - either thin | or die
     
   </title>
 <meta name="generator" content="Hexo 5.4.0"></head>
@@ -302,29 +302,7 @@
           <!-- LangSelect -->
           
           
-          <!-- LangSelect start -->
-          <!-- LangSelect -->
-<li>
-  <a id="lang-select-label"><i class="fa fa-globe"></i>
-    <span>
-      English
-    </span>
-    <select id="lang-select" data-canonical="archives/2022/index.html">
-      
-      
-      <option value="en"  selected >
-        English
-      </option>
-      
-      <option value="cn" >
-        简体中文
-      </option>
-      
-    </select>
-  </a>
-</li>
-
-          <!-- LangSelect end -->
+          
           
           
         </ul>
@@ -377,18 +355,18 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io');
-      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/404_bg.jpg');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io//img/header_img/404_bg.jpg');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/404_bg.jpg');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io//img/header_img/404_bg.jpg');
     }
     header.intro-header {
-       /*page*/
-        background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/archive_bg2.jpg'); */
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/img/header_img/404_bg.jpg'); */
       
     }
 
@@ -411,10 +389,42 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <div class="site-heading">
-            <h1>云雨</h1>
-            <!--<hr class="small">-->
-            <span class="subheading">坐看云卷云舒，静听花开花落。</span>
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#产量预测" title="产量预测">产量预测</a>
+              
+            </div>
+            <h1>每日论文-2</h1>
+            <h2 class="subheading">论文精读系列</h2>
+            <span class="meta">
+              Posted by 倪明成 on
+              2022-04-29
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">1</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">484</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
           </div>
           
         </div>
@@ -455,432 +465,320 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-		<!-- Main Content -->
-<div class="container">
-  <div class="row">
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <h1>每日论文</h1>
+<hr>
+<p>@[TOC]</p>
+<hr>
+<h1>一、论文摘要</h1>
+<p><strong>目的</strong>：对页岩气井产量进行评价与预测</p>
+<p><strong>方法：</strong></p>
+<ol>
+<li>考虑地址因素和工程因素，整合页岩气开采全周期地质、钻井、压裂、生产等数据。</li>
+<li>对原始数据进行缺失值插补、相关性分析、异常值处理、主成分分析，减小数据噪声。</li>
+<li>采用聚类分析方法对页岩气井产量进行评价，研究影响页岩气井产量的主要因素。</li>
+<li>最后采用随机森林方法预测页岩气藏气井产量。</li>
+</ol>
+<p><strong>结果：</strong><br>
+<strong>压裂因素</strong>对页岩气井产量评价结果影响最大，调参后的页岩气井产量预测结果准确度达到90%以上。</p>
+<p><strong>意义：</strong><br>
+现有解析模型与实际页岩气井差异较大，数值模拟计算难度大、效率低，导致页岩气井产量预测难度大。基于机器学习的模型能够用于页岩气井预测。</p>
+<hr>
+<h1>二、论文结果图</h1>
+<blockquote>
+<p>数据样本的所有特征参数<br>
+<img src="https://img-blog.csdnimg.cn/20d49f5364624413aa477ffc505875a0.png" alt="表 1"></p>
+</blockquote>
+<blockquote>
+<p>特征参数的相关性分析<br>
+<img src="https://img-blog.csdnimg.cn/66bc2affa23545e092920ac9e26e6bb1.png" alt="图 2"></p>
+</blockquote>
+<blockquote>
+<p>剔除与目标值相关性低的特征参数后，保留的备选因素<br>
+<img src="https://img-blog.csdnimg.cn/67fd3cb9a43147cbba4d9360420505ae.png" alt="表 2"></p>
+</blockquote>
+<blockquote>
+<p>异常值筛选<br>
+<img src="https://img-blog.csdnimg.cn/28e548b537f342ffa1d87c20229795d3.png" alt="表 3"></p>
+</blockquote>
+<blockquote>
+<p>对筛选出的15个特征参数进行主成分分析后，降维得到5个特征值大于1的变量<br>
+<img src="https://img-blog.csdnimg.cn/396c5abf5525477e83e0c678a5424597.png" alt="表 4"></p>
+</blockquote>
+<blockquote>
+<p>利用k均值聚类法，对降维后的5个特征值进行分析，得到Y1对页岩气井产量评价的影响最大<br>
+<img src="https://img-blog.csdnimg.cn/12a43e56bcfc4b3f9a07768957bfedf6.png" alt="表 5"></p>
+</blockquote>
+<blockquote>
+<p>模型参数<br>
+<img src="https://img-blog.csdnimg.cn/e04b6bd8f0ed48b582be0292d420f7f6.png" alt="表 6"><br>
+<img src="https://img-blog.csdnimg.cn/233b4e4f67e74eb0958fae466f0334e7.png" alt="在这里插入图片描述"></p>
+</blockquote>
+<hr>
+<h1>三、总结</h1>
+<p>文章脉络</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[页岩气井产量预测] -- 1 --&gt; B(考虑模型因素)</span><br><span class="line">A --2--&gt; C(处理数据样本缺失值)</span><br><span class="line">A --3--&gt; D(相关性分析)</span><br><span class="line">A --4--&gt; E(主成分析进行降维)</span><br><span class="line">A --5--&gt; F(采用聚类分析进行评价)</span><br><span class="line">B --&gt;G(应用随机森林进行产量预测)</span><br><span class="line">B --&gt;G</span><br><span class="line">C --&gt;G</span><br><span class="line">D --&gt;G</span><br><span class="line">E --&gt;G</span><br><span class="line">F --&gt;G</span><br></pre></td></tr></table></figure>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          <li class="previous">
+            <a href="/论文阅读/文献阅读流程/" data-toggle="tooltip" data-placement="top" title="文献阅读方法">&larr; Previous Post</a>
+          </li>
+          
+          
+          <li class="next">
+            <a href="/机器学习/pandas/" data-toggle="tooltip" data-placement="top" title="pandas使用">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      If you like this blog or find it useful for you, you are welcome to comment on it. You are also welcome to share this blog, so that more people can participate in it. If the images used in the blog infringe your copyright, please contact the author to delete them. Thank you !
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=每日论文-2&body=Hi,I found this website and thought you might like it http://sallbryant.github.io/论文阅读/基于机器学习的页岩气井产量评价与预测/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <script src="https://cdn.jsdelivr.net/gh/SallBryant/SallBryant.github.io/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '',
+      clientSecret: '',
+      repo: '',
+      owner: '',
+      admin: '',
+      id: 'Fri Apr 29 2022 21:36:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'en',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">每日论文</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">一、论文摘要</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">二、论文结果图</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">三、总结</span></a></li></ol>
+        
+        </div>
+      </aside>
     
 
-    <!-- USE SIDEBAR -->
-    <!-- Post Container -->
-    <div class="
+
+
+      <!-- Sidebar Container -->
+      <div class="
                 col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
-      <!-- Main Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
-      <!-- 归档列表 -->
-
-      
-
-      <!-- 归档列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2022">
-          <span class="tag-text">2022</span>
-        </span>
-        <ul>
-          
-          <li>
-            04-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/前端面试题/前端面试题系列-2/" style="color: #0085a1">
-              <span>
-                前端面试题-2
-                
-                -- 前端面试题
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/论文阅读/文献阅读流程/" style="color: #0085a1">
-              <span>
-                文献阅读方法
-                
-                -- 论文阅读
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/论文阅读/基于机器学习的页岩气井产量评价与预测/" style="color: #0085a1">
-              <span>
-                每日论文-2
-                
-                -- 论文阅读
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-20
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/论文阅读/基于条件生成式对抗网络的油藏单井产量预测模型/" style="color: #0085a1">
-              <span>
-                每日论文-1
-                
-                -- 论文阅读
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-20
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/前端面试题/前端面试题系列-1/" style="color: #0085a1">
-              <span>
-                前端面试题-1
-                
-                -- 前端面试题
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-20
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/机器学习/pandas/" style="color: #0085a1">
-              <span>
-                pandas使用
-                
-                -- 机器学习
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-20
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/机器学习/Machine-Learning/" style="color: #0085a1">
-              <span>
-                Machine Learning
-                
-                -- 机器学习
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-20
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/随笔/听雨/" style="color: #0085a1">
-              <span>
-                听雨
-                
-                -- 随笔
-                
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2020">
-          <span class="tag-text">2020</span>
-        </span>
-        <ul>
-          
-          <li>
-            04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/en/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-
-      <!-- 如果开启评论功能 -->
-      
-    </div>
-
-    <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Visitors -->
-<h5><a href="/">VISITORS</a></h5>
-
-<div class="widget">
-  <span>
-    Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
-  </span>
-  <br />
-  <span>
-    <b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
-  </span>
-</div>
-
-
-        <hr>
-    
         <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">FEATURED TAGS</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#产量预测" title="产量预测">产量预测</a>
+            
+          </div>
+        </section>
+        
 
-<section>
-  <h5><a href="/tags/">FEATURED TAGS</a></h5>
-  <div class="tags">
-    
-    
-    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="2">Hexo-Theme-LiveMyLife</a>
-    
-    
-    
-    <a href="/tags/#散文" title="散文" rel="1">散文</a>
-    
-    
-    
-    <a href="/tags/#ML" title="ML" rel="2">ML</a>
-    
-    
-    
-    <a href="/tags/#HTML" title="HTML" rel="2">HTML</a>
-    
-    
-    
-    <a href="/tags/#CSS" title="CSS" rel="2">CSS</a>
-    
-    
-    
-    <a href="/tags/#产量预测" title="产量预测" rel="2">产量预测</a>
-    
-    
-    
-    <a href="/tags/#JavaScript" title="JavaScript" rel="1">JavaScript</a>
-    
-    
-    
-    <a href="/tags/#阅读流程" title="阅读流程" rel="1">阅读流程</a>
-    
-    
-  </div>
-</section>
-
-
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-  <h5><a href="/about/">ABOUT ME</a></h5>
-  <div class="short-about">
-
-    
-    <img id="avatar_pic" src="/img/avatar/kobe.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
-    
-
-    
-    <p>Fat people have no future, either thin or die...</p>
-    
-
-    <!-- SNS Link -->
-    <ul class="list-inline">
-      
-
-      
-      <li>
-        <a target="_blank" href="https://github.com/SallBryant">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-      
-      <li>
-        <a target="_blank" href="https://twitter.com/V_Vincen_">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-      
-      <li>
-        <a target="_blank" href="https://www.instagram.com/v_vincen_">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-      
-
-      
-
-      
-
-      
-      <li>
-        <a target="_blank" href="http://weibo.com/WVincen">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-    </ul>
-  </div>
-</section>
-
-        <hr>
-    
-        <!-- RECENT POSTS -->
-
-<h5><a href="/">RECENT POSTS</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="../../%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B3%BB%E5%88%97-2/">
-      <li>前端面试题-2</li>
-    </a>
-    
-    <a href="../../%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%B5%81%E7%A8%8B/">
-      <li>文献阅读方法</li>
-    </a>
-    
-    <a href="../../%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/%E5%9F%BA%E4%BA%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%A1%B5%E5%B2%A9%E6%B0%94%E4%BA%95%E4%BA%A7%E9%87%8F%E8%AF%84%E4%BB%B7%E4%B8%8E%E9%A2%84%E6%B5%8B/">
-      <li>每日论文-2</li>
-    </a>
-    
-    <a href="../../%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/pandas/">
-      <li>pandas使用</li>
-    </a>
-    
-    <a href="../../%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B3%BB%E5%88%97-1/">
-      <li>前端面试题-1</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
         <!-- Friends Blog -->
-
-<h5><a href="/">FRIENDS</a></h5>
-<ul class="list-inline">
-  
-  <li><a href="https://v-vincen.life/" target="_blank">V_Vincen</a></li>
-  
-  <li><a href="http://beantech.org" target="_blank">Bean Tech</a></li>
-  
-  <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
-  
-  <li><a href="https://hexo.io/" target="_blank">Hexo</a></li>
-  
-</ul>
-
-
+        
         <hr>
-    
-        <!-- Archives -->
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
 
-<h5><a href="/archives/">archives</a></h5>
-<div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="04/">April 2022</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="../2020/04/">April 2020</a><span class="archive-list-count">2</span></li></ul>
-</div>
-
-
-        <hr>
-    
-        <!-- Categories -->
-
-<h5><a href="/categories/">categories</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="/categories/#Hexo-Theme-LiveMyLife">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-    <a href="/categories/#随笔">
-      <li>随笔</li>
-    </a>
-    
-    <a href="/categories/#生活">
-      <li>生活</li>
-    </a>
-    
-    <a href="/categories/#机器学习">
-      <li>机器学习</li>
-    </a>
-    
-    <a href="/categories/#前端面试题">
-      <li>前端面试题</li>
-    </a>
-    
-    <a href="/categories/#论文阅读">
-      <li>论文阅读</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
-</div>
-
-
-    
+          
+          <li>
+            <a href="https://v-vincen.life/" target="_blank">V_Vincen</a>
+          </li>
+          
+          <li>
+            <a href="http://beantech.org" target="_blank">Bean Tech</a>
+          </li>
+          
+          <li>
+            <a href="http://huangxuan.me" target="_blank">Hux Blog</a>
+          </li>
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
   </div>
-</div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
 
 
 		<!-- Footer (contains ThemeColor、viewer) -->
@@ -1022,7 +920,7 @@
     let jsdelivr = "https://cdn.jsdelivr.net/gh/";
     let gh = "SallBryant";
     let ghPages = gh + ".github.io";
-    let pagePath = "archives/2022/index.html";
+    let pagePath = "论文阅读/基于机器学习的页岩气井产量评价与预测/";
     let jsdelivrurl;
     if (pagePath.indexOf("index.html") != -1) {
       jsdelivrurl = jsdelivr + gh + "/" + ghPages;
